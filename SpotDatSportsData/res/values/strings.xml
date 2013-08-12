@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spot Dat Sports Data</string>
+    <string name="action_goto">Go to…</string>
+    <string name="title_activity_match">Match details</string>
+    <string name="own_goal">own goal</string>
+    <string name="penalty">penalty</string>
+    <string name="by">by</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/kickoff_at"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+	
+	<TextView
+		android:id="@+id/venue"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+	
+	<include
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		layout="@layout/listitem_match" />
+	
+	<ListView
+		android:id="@+id/list_match_events"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		tools:listitem="@android:layout/simple_list_item_1" />
+	
+	<ListView
+		android:id="@+id/list_former_clashes"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+	
+</LinearLayout>

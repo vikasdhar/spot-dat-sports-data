@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="fill_horizontal|center_horizontal" >
+
+	<TextView
+		android:id="@+id/team1name"
+		android:layout_width="0px"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:gravity="right"
+		android:minLines="2" />
+	
+	<ImageView
+		android:id="@+id/team1emblem"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="team emblem" />
+
+	<TextView
+		android:id="@+id/team1goals"
+		android:layout_width="20dp"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:text="-" />
+
+	<TextView
+		android:id="@+id/teamsSeparator"
+		android:layout_width="10dp"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text=":" />
+
+	<TextView
+		android:id="@+id/team2goals"
+		android:layout_width="20dp"
+		android:layout_height="wrap_content"
+		android:text="-" />
+	
+	<ImageView
+		android:id="@+id/team2emblem"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="team emblem" />
+
+	<TextView
+		android:id="@+id/team2name"
+		android:layout_width="0px"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" />
+
+</LinearLayout>
